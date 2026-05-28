@@ -1,0 +1,11 @@
+# Kubernetes
+kubernetes>=29.0.0
+
+# NLP
+spacy>=3.7.0
+
+# Modelo español de spaCy (instalar aparte con:)
+# python -m spacy download es_core_news_md
+
+# Ollama (cliente HTTP, viene incluido en requests)
+requests>=2.31.0

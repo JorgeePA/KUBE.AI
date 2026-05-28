@@ -1,0 +1,44 @@
+# Entorno virtual
+kubeai_env/
+venv/
+env/
+.env
+
+# Kubernetes - credenciales y certificados
+config
+ca.crt
+*.crt
+*.key
+*.pem
+kubeconfig
+
+# Binarios
+minikube-linux-amd64
+minikube
+kubectl
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Modelos de spaCy / caché de Hugging Face
+.cache/
+models/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Sistema
+.DS_Store
+Thumbs.db
+*.log
